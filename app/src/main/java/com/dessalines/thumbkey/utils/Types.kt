@@ -177,6 +177,7 @@ enum class ThemeColor(
     HighContrastColorful(R.string.high_contrast_colorful),
     Ancom(R.string.ancom),
     Matrix(R.string.matrix),
+    Catppuccin(R.string.catppuccin),
 }
 
 enum class KeyboardPosition(

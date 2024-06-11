@@ -1239,3 +1239,39 @@ fun matrix(): Pair<ColorScheme, ColorScheme> {
         )
     return Pair(dark, dark)
 }
+
+fun catppuccin(): Pair<ColorScheme, ColorScheme> {
+    val dark =
+        darkColorScheme(
+            primary = Color(0xFF89B4FA),
+            onPrimary = Color(0xFF06305F),
+            primaryContainer = Color(0xFF254777),
+            onPrimaryContainer = Color(0xFFD5E3FF),
+            secondary = Color(0xFFCDD6F4),
+            onSecondary = Color(0xFF1E2D61),
+            secondaryContainer = Color(0xFF364479),
+            onSecondaryContainer = Color(0xFFDCE1FF),
+            tertiary = Color(0xFFCDD6F4),
+            onTertiary = Color(0xFF083910),
+            tertiaryContainer = Color(0xFF3F5F90),
+            onTertiaryContainer = Color(0xFFBBF0B5),
+            error = Color(0xFFFFB1C4),
+            errorContainer = Color(0xFF703345),
+            onError = Color(0xFF551D2F),
+            onErrorContainer = Color(0xFFFFD9E1),
+            background = Color(0xFF11111B),
+            onBackground = Color(0xFFFFFFFF),
+            surface = Color(0xFF181825),
+            onSurface = Color(0xFFFFFFFF),
+            surfaceVariant = Color(0xFF1E1E2E),
+            onSurfaceVariant = Color(0xFFC2C8BC),
+            outline = Color(0xFF918F9A),
+            inverseOnSurface = Color(0xFF000000),
+            inverseSurface = Color(0xFFFFD9E4),
+            inversePrimary = Color(0xFF3F5F90),
+            surfaceTint = Color(0xFF9399B2),
+            outlineVariant = Color(0xFF47464F),
+            scrim = Color(0xFF000000),
+        )
+    return Pair(dark, dark)
+}

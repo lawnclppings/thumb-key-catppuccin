@@ -43,6 +43,7 @@ fun ThumbkeyTheme(
             ThemeColor.HighContrast -> highContrast()
             ThemeColor.HighContrastColorful -> highContrastColorful()
             ThemeColor.Ancom -> ancom()
+            ThemeColor.Catppuccin -> catppuccin()
         }
 
     val systemTheme =
